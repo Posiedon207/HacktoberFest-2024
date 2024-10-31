@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class SumOfOddNumbers {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the number of odd numbers to sum: ");
+        int n = scanner.nextInt();
+
+        // Using the formula to calculate the sum
+        int sum = n * n;
+
+        System.out.println("The sum of the first " + n + " odd numbers is: " + sum);
+    }
+}
